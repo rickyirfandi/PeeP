@@ -1,0 +1,161 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+     <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+     <!-- Start of first page -->
+     <div data-role="page" id="page-one">
+      <div data-role="header" data-position="fixed">
+       <a href="#mypanel1" class="ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">No text</a>
+       <h1>Beranda</h1>
+      </div><!-- /header -->
+      <div role="main" class="ui-content">
+
+
+       <center><h1>PeeP</h1></center>
+	   <center><h4> Adalah sebuah aplikasi untuk belajar agar lebih mudah dalam hal memahami materi kapan saja dan dimana saja :)</h4></center>
+
+
+<form name=log>
+<ul data-role="listview" data-inset="true">
+  <li class="ui-field-contain">
+      <label for="username">username :</label>
+      <input type="text" name="username" id="username" value="" data-clear-btn="true">
+  </li>
+  <li class="ui-field-contain">
+      <label for="password_">password :</label>
+      <input type="password" name="password_" id="password_" value="" data-clear-btn="true">
+  </li>
+  <li class="ui-field-contain">
+      <button type="button" onClick="login()" class="ui-btn ui-corner-all ui-btn-a ui-btn-icon-left ui-icon-lock">Masuk</button>
+  </li>
+</ul>
+</form><br/>
+        <a href="#page-three" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-heart">Butuh Motivasi?</a>
+      </div><!-- /content -->
+      <div data-role="footer" data-position="fixed">
+       <h2>Made with ♥ by Ricky.</h2>
+      </div><!-- /footer -->
+
+      <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="mypanel1">
+
+        <ul data-role="listview">
+          <li><a href="#page-one">Beranda</a></li>
+          <li><a href="#page-three">Motivasi</a></li>
+        </ul>
+      </div><!-- /panel -->
+
+     </div><!-- /page -->
+    <!-- Start of second page -->
+  <div data-role="page" id="page-two">
+    <div data-role="header" data-position="fixed">
+       <a href="#mypanel1" class="ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">No text</a>
+       <h1>Kategori Pelajaran</h1>
+      </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+      	   	<ul data-role="listview" data-autodividers="true" data-filter="true" data-filter-placeholder="Search" data-inset="true">
+			<li><a href="http://personaleducationpartner.blogspot.co.id/search/label/Fisiologi">Fisiologi</a></li>
+      <li><a href="http://personaleducationpartner.blogspot.co.id/search/label/Penyakit">Penyakit</a></li>
+      <li><a href="http://personaleducationpartner.blogspot.co.id/search/label/Psikiatri">Psikiatri</a></li>
+		</ul>
+    </div><!-- /content -->
+
+    <div data-role="footer" data-position="fixed">
+      <h2>Made with ♥ by Ricky.</h2>
+    </div><!-- /footer -->
+    <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="mypanel1">
+
+      <ul data-role="listview">
+        <li><a href="#page-one">Beranda</a></li>
+        <li><a href="#page-three">Motivasi</a></li>
+      </ul>
+      </div><!-- /panel -->
+  </div><!-- /page -->
+
+<!-- Start of third page -->
+  <div data-role="page" id="page-three">
+    <div data-role="header" data-position="fixed">
+       <a href="#mypanel1" class="ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">No text</a>
+       <h1>Motivasimu ~</h1>
+      </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+
+      <ul data-role="listview" data-inset="true">
+        <li>
+            <h1>Elvin Cahyanita</h1>
+            <p>Aku kasih fotoku sama dewa terus ortunya dewa</p>
+            <p>biar inget berusaha buat siapa</p>
+            <p>hahahahaha</p>
+        </li>
+        <li>
+            <h1>Ricky Irfandi</h1>
+            <p>Jangan menyerah pada impianmu menjadi dokter... </p>
+            <p>.. dengan syarat pasien <60Kg </p>
+        </li>
+        <li>
+            <h1>Andre Diofanu</h1>
+            <p>Hidup adalah untuk hidup </p>
+            <p>Kalau bukan kita, siapa lagi? </p>
+            <p>Aku senang ketika kita hebat</p>
+        </li>
+        <li>
+            <h1>Fadel Jordhy Bialy</h1>
+            <p>Tuntutlah ilmu sampai ke negri cina </p>
+        </li>
+        <li>
+            <h1>Mukhlish Nur Rahman</h1>
+            <p>Sekarang bersusah payah dulu,</p>
+            <p>esok hari akan merasakan hasilnya</p>
+        </li>
+        <li>
+            <h1>Dodi Indra W</h1>
+            <p>Apaaaaaa yaaaaa Rick,</p>
+            <p>sek sek aku memikirkannya dulu</p>
+        </li>
+      </ul>
+
+    </div>
+
+<!-- /content -->
+    <div data-role="footer" data-position="fixed">
+      <h2>Made with ♥ by Ricky.</h2>
+    </div><!-- /footer -->
+    <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="mypanel1">
+
+       <ul data-role="listview">
+         <li><a href="#page-one">Beranda</a></li>
+         <li><a href="#page-three">Motivasi</a></li>
+       </ul>
+      </div><!-- /panel -->
+  </div><!-- /page -->
+
+  </body>
+
+<script language="javascript">
+var username,password;
+
+function login(){
+  username = document.log.username.value;
+  password= document.log.password_.value;
+
+  if(username == "sadewaws"){
+    if(password == "togebau"){
+      window.location.href = "#page-two";
+    }
+    else {
+      window.location.href = "#page-three";
+    }
+  }
+}
+
+
+
+</script>
+    </html>
